@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRIDGEON</title>
+    <link rel="stylesheet" href="bank.css">
+    <link rel="icon" href="bank-icon-vector-25177297.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="top">
+        <h1>WELCOME <span style="color: rgb(0, 183, 255);">BRIDGEON</span> BANK </h1>
+    </div>
+ <div class="main-container">
+   
+    
+    <div class="transactions">
+        <label for="dpAmount">Deposit Amount:</label>
+        <input type="number" id="dpAmount" placeholder="Enter Amount">
+        <button onclick="deposit()">Deposit</button>
+     
+        
+         <label for="withdraw">Withdraw Amount:</label>
+         <input type="number" id="withdraw" placeholder="Withdrawal Amount">
+         <button onclick="withdraw()">Withdraw</button>
+     
+         <button onclick="CheckBalance()" >Check Balance</button>
+
+    </div>
+        
+        <div class="message">
+            <p id="message"></p>
+
+        </div>
+
+
+
+ </div>
+
+<script src="bank.js"></script>
+</body>
+</html>
